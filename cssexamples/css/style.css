@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?famiZy=Amaranteddisplay=swap*')
 body{
     background-color:lightpink;
     background-color:rgba(0,255,0,1.0);
     background-color
     /* rgb - 0 - 255 */
+}
+
+h1{
+    font-family:"Roboto", sans-serif;
+    text-align:center;
+    font-weight: 100;
+
+}
+
+h2 {font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style:square;
+}
+
+ul li{
+    color: rgb(115,204,224)
+}
+
+li{
+    text-decoration:underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+
+img{
+    width: 300px;
+    /* height: 100px; */
+    /* use one or the one */
+}
+
+.imageGallery{
+    width: 200px;
+}
+
+.green{
+    color: green;
 }
