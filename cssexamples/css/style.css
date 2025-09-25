@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?famiZy=Amaranteddisplay=swap*')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap')
 body{
     background-color:lightpink;
     background-color:rgba(0,255,0,1.0);
@@ -6,30 +6,67 @@ body{
     /* rgb - 0 - 255 */
 }
 
-h1{
-    font-family:"Roboto", sans-serif;
-    text-align:center;
-    font-weight: 100;
+header{
+    width: 960px;
+    background-color:lemonchiffon;
+    height: auto;
+    padding: 20px;
+    border: 5px lightpink;
+    margin-top: -7px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    width: 960px;
+    background-color: skyblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 5px dotted orange;
+    border-right: 5px dotted orange;
+    margin: 0px auto; 
 
 }
 
-h2 {font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+footer{
+    width: 960px;
+    height: 50px;
+    background-color: plum;
+    padding: 20px;
+    border-left: 5px dashed rgb(255, 0, 0);
+    border-right: 5px dashed rgb(255,0,0);
+    margin: 0px auto;
+}
+
+h1{
+    font-family:"Roboto", sans-serif;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+h2{
+    font-family: cursive;
     text-transform: capitalize;
 }
 
 ul{
-    list-style:square;
+    list-style: square;
 }
 
 ul li{
-    color: rgb(115,204,224)
+    color: rgb(245, 243, 241)
 }
 
 li{
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -49,4 +86,32 @@ img{
 
 .green{
     color: green;
+}
+
+.greyBackground{
+    background-color: rgba(255, 189, 189, 0.5);
+}
+
+nav{
+    width: 400px;
+    margin: 0px auto;
+    border-bottom: black 1px solid;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+nav ul li a{
+    font-family: "Roboto", sans-serif'
+    font-size: 20px;
+    font-weight: 900;
+    color: black; 
+}
+
+nav ul li a:hover{
+    background-color: aliceblue;
 }
