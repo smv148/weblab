@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    background-color:lightskyblue;
+    background-color:orange;
     /* rgb - 0 - 255 */
 }
 
@@ -32,7 +32,7 @@ main{
 footer{
     width: 960px;
     height: 50px;
-    background-color: orange;
+    background-color: blueviolet;
     padding: 20px;
     border-left: 5px dashed rgb(255, 0, 0);
     border-right: 5px dashed rgb(255,0,0);
