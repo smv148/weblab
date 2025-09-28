@@ -32,7 +32,7 @@ main{
 footer{
     width: 960px;
     height: 50px;
-    background-color: blueviolet;
+    background-color: ;
     padding: 20px;
     border-left: 5px dashed rgb(255, 0, 0);
     border-right: 5px dashed rgb(255,0,0);
@@ -90,8 +90,8 @@ img{
     background-color: rgba(221, 160, 221, 0.5);
 }
 
-.blue{
-    color: lightskyblue;
+.black{
+    color: black;
 }
 
 nav{
