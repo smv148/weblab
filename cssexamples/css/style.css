@@ -92,6 +92,10 @@ img{
     background-color: rgb(221, 160, 221, 0.5);
 }
 
+.blue{
+    color: lightskyblue;
+}
+
 nav{
     width: 400px;
     margin: 0px auto;
