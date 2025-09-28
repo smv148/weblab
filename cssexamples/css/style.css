@@ -2,13 +2,13 @@
 body{
     background-color:lightpink;
     background-color:lightskyblue;
-    background-color
+    background-color: orange;
     /* rgb - 0 - 255 */
 }
 
 header{
     width: 960px;
-    background-color:rgb(255, 199, 203);
+    background-color: rgb(255, 199, 203);
     height: auto;
     padding: 20px;
     border: 5px rgb(250, 126, 145);
@@ -20,7 +20,7 @@ header{
 
 main{
     width: 960px;
-    background-color: skyblue;
+    background-color: lightskyblue;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
